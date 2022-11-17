@@ -18,6 +18,30 @@ header {
     margin-bottom: 4rem;
 }
 
+main {
+    width: fit-content;
+    margin-inline: auto;
+}
+
 h2 {
-    
+    color: var(--card-color-primary);
+    border: 1px solid var(--card-title-border-color);
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    gap: 1rem;
+    border-radius: 6px;
+    margin-bottom: 3.25rem;
+}
+
+span {
+    color: #fff;
+    font-size: .875rem;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid red;
+    width: 100%;
 }
